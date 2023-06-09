@@ -22,6 +22,11 @@
 
 - 맥북 바로가기 shortcut: `cmd + /` 
 
+## div 
+
+- div로 블록 형식으로 문서를 분할하고 나눌 수 있습니다. 인라인과 다르게 div 블록을 사용 하면 화면 전체가 분할됩니다.
+
+
 ## 앵커 태그
 - `<a>` : 다른 사이트나 같은 페이지의 다른 위치로 이동하는 하이퍼링크
     - `<a href="#content1">Content 1</a>` 처럼 #을 붙여 주면 같은 페이지의 지정된 위치로 이동할 수 있습니다. 
@@ -57,5 +62,20 @@
 
 ## 테이블 태그 
 
+    ```html
     <table>
+        <caption> Table 1 </caption>
         <tr>
+            <th>이름</th>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+        </tr>
+    </table>
+    ```
+
+tr : table row
+th : table header
+td : table column 생성
+
+여기에 border 지정, 행/열 합치기 등 다양하게 변형 가능합니다. 
