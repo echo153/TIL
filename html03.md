@@ -65,6 +65,7 @@
 - optgroup : 선택할 수 없지만 표시됨 
 
     ![optgroup](/TIL-html/images/optgroup.png)
+    
     ```html
     <!-- optgroup 코드: -->
     <select name="dinner">

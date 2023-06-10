@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form select</title>
+</head>
+<body>
+    
+    <h1>HTML Select Tags</h1>
+
+    <p style="width: 800px">
+        The 'select' element is most often used in a form, to collect user input. <br>
+            'name' : to reference the form data after the form is submitted 
+            (if you omit the name attribute, no data from the drop-down list will be submitted). <br>
+            'id' : to associate the drop-down list with a label. <br>
+            'option' tags : inside the 'select' element define the available options in the drop-down list. <br>
+    </p>
+
+    <h2>SELECT FORM EXAMPLE:</h2>
+
+    <h3>Choosing your Lunch Menu</h3>
+
+    <form action="html11-form-res.html" method="get">
+        <p>Breakfast
+            <select multiple name="Breakfast">
+                <option value="" selected>Select Menu</option>
+                <optgroup label="breakfast meus">
+                    <option value="kimbab">kimbab</option>
+                    <option value="eggs">eggs</option>
+                    <option value="soup">soup</option>
+                    <option value="toast">toast</option>
+                </optgroup>
+                <optgroup label="drinks">
+                    <option value="coffee">coffee</option>
+                    <option value="tea">tea</option>
+                    <option value="juice">juice</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>Lunch
+            <select name="lunch">
+                <option value="" selected disabled>Select Menu</option>
+                    <option value="kimbab">kimbab</option>
+                    <option value="tacos">tacos</option>
+                    <option value="pho">pho</option>
+                    <option value="bahnmi">bahn mi</option>
+            </select>
+        </p>
+        <p>Dessert
+            <select name="dessert">
+                <option value="" selected disabled>Select Menu</option>
+                <optgroup label="dessert meus">
+                    <option value="macarong">macarong</option>
+                    <option value="tiramisu">tiramisu</option>
+                    <option value="cake">cake</option>
+                    <option value="yakgwa">yakgwa</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <!-- 여기서 value 속성은 버튼에 표시되는 글자! -->
+            <input type="submit" value="Submit">
+        </p> 
+    </form>
+</body>
+</html>

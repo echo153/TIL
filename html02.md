@@ -66,7 +66,7 @@
     <table>
         <caption> Table 1 </caption>
         <tr>
-            <th>이름</th>
+ HTML           <th>이름</th>
         </tr>
         <tr>
             <td>홍길동</td>
